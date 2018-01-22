@@ -65,11 +65,15 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-const greeting = "Hello, Webpack!";
-(() => console.log(greeting))();
+"use strict";
 
+
+var greeting = "Hello, Webpack!";
+(function () {
+  return console.log(greeting);
+})();
 
 /***/ })
 /******/ ]);
