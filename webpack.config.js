@@ -18,7 +18,8 @@ module.exports = {
 						presets: ["env"]
 					}
 				}
-			}
+			},
+			{ test: /\.css$/, loader: "style-loader!css-loader" }
 		]
 	},
 	devServer: {
